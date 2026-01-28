@@ -15,7 +15,7 @@ Python 3
 1. Requests: For handling HTTP requests.
 2. BeautifulSoup: For parsing HTML and DOM navigation.
 3. Pandas: For data cleaning, transformation, and CSV export.
-4.Regex (re): For cleaning and formatting price strings.
+4. Regex (re): For cleaning and formatting price strings.
 
 ## Project Structure
 - ├── CS_Labs_detyra_22_01.ipynb   # Original research and development notebook
