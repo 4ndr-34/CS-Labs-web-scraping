@@ -35,3 +35,6 @@ Python 3
 3. Move to Project: cd CS-Labs-web-scraping
 4. Install dependencies: pip install -r requirements.txt
 5. Run the scraper: python main.py
+
+## Test 
+After testing for double categories, I found out that none of the books have two or more categories, but I did add a testcase to be sure. It can be seen in the notebook.
