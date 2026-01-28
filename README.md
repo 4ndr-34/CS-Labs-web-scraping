@@ -31,10 +31,11 @@ Python 3
 
 ## Setup and Usage
 1. Create an API Key at: https://www.exchangerate-api.com
-2. Clone the repository: git clone https://github.com/4ndr-34/CS-Labs-web-scraping.git
-3. Move to Project: cd CS-Labs-web-scraping
-4. Install dependencies: pip install -r requirements.txt
-5. Run the scraper: python main.py
+3. Clone the repository: git clone https://github.com/4ndr-34/CS-Labs-web-scraping.git
+4. Insert API Key at main.py line 86
+5. Move to Project: cd CS-Labs-web-scraping
+6. Install dependencies: pip install -r requirements.txt
+7. Run the scraper: python main.py
 
 ## Test 
 After testing for double categories, I found out that none of the books have two or more categories, but I did add a testcase to be sure. It can be seen in the notebook.
