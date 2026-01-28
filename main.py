@@ -89,6 +89,10 @@ rate = get_exchange_rate(API_KEY, "GBP", "EUR")
 
 print("Exchange Rate GBP->EUR: ", rate)
 
+# Manual test: Add 'Test Category' to the first book found
+first_book_title = list(books.keys())[0]
+books[first_book_title]['Categories'].add('Test Category')
+
 final_list = list(books.values())
 for item in final_list:
   item['Categories'] = ', '.join(sorted(item['Categories']))
@@ -108,6 +112,4 @@ df['Exchange Date'] = datetime.now().strftime("%Y-%m-%d")
 df.to_csv('books_data.csv', index=False, encoding='utf-8')
 print(df)
 
-# Manual test: Add 'Test Category' to the first book found
-first_book_title = list(books.keys())[0]
-books[first_book_title]['Categories'].add('Test Category')
+
