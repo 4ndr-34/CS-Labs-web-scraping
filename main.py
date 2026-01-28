@@ -90,8 +90,8 @@ rate = get_exchange_rate(API_KEY, "GBP", "EUR")
 print("Exchange Rate GBP->EUR: ", rate)
 
 # Manual test: Add 'Test Category' to the first book found
-first_book_title = list(books.keys())[0]
-books[first_book_title]['Categories'].add('Test Category')
+#first_book_title = list(books.keys())[0]
+#books[first_book_title]['Categories'].add('Test Category')
 
 final_list = list(books.values())
 for item in final_list:
