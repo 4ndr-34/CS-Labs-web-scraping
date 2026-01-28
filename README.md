@@ -29,7 +29,7 @@ Python 3
 4. Convert Money: It asks an API for the current GBP to EUR rate and calculates the new price.
 5. Create File: It saves the final list of books into books_data.csv.
 
-## Setup and Usage
+## Setup and Usage Instructions
 1. Create an API Key at: https://www.exchangerate-api.com
 3. Clone the repository: git clone https://github.com/4ndr-34/CS-Labs-web-scraping.git
 4. Insert API Key at main.py line 86
