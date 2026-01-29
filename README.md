@@ -19,7 +19,9 @@ Python 3
 
 ## Project Structure
 - ├── CS_Labs_detyra_22_01.ipynb   # Original research and development notebook
+- ├── Detyre kursi Janar 2026.docx   # Docx file with the project requirements
 - ├── main.py                     # Cleaned, production-ready Python script
+- ├── requirements.txt            # Necessary Python libraries
 - └── books_data.csv              # Final output (1,000 unique books)
 
 ## Project Steps
